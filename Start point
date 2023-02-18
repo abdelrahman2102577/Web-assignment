@@ -68,7 +68,11 @@
 </div> 
 <hr>
 <!-- end of hazem part -->
-<h3><li>Mohamed</li></h3>
+<h4><li>Mohamed Saleh Mater</li></h4>
+<p>ID:2021-10465</p>
+<p>I am 20 years old</p>
+<p>New to HTML, ready to learn more and more as i go.</p>
+<!-- end of Mohamed's part -->
 <h3><li>Karim</li></h3>
 </ul>
 </html>
