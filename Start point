@@ -7,6 +7,26 @@
     body{
         background-color: rgb(0, 255, 255);
     }
+    *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.image{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image img{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    border: 10px solid floralwhite;
+
+}
 </style>
 </head>
 <body><h1>This is The web assignment for the following team :</h1></body>
@@ -20,7 +40,17 @@
     <p><a href="mailto:fathy2111262@miuegypt.edu.eg">contact me</a></p>
 </h3>
 <h3><li>Abdelrahman</li></h3>
-<h3><li>Hazem</li></h3>
+<!-- this part of code for hazem -->
+<hr>
+<h3><li>Hazem mohamed zakeria </li></h3>
+<p>ID:2021-11675</p>
+<p>I am 20 years old</p>
+<p><a href="https://www.facebook.com/zomalovemylove/" target="_blank"> facebook account </a></p>
+<div class="image">
+    <img src="hazem photo.jpg" alt="hazem's photo">
+</div> 
+<hr>
+<!-- end of hazem part -->
 <h3><li>Mohamed</li></h3>
 <h3><li>Karim</li></h3>
 </ul>
@@ -33,4 +63,5 @@
 
 
 </body>
+</html>
 
