@@ -1,87 +1,109 @@
 <!DOCTYPE html>
 <html>
-<meta  charset = " UTF-8" />
+<meta charset="UTF-8"/>
+
 <head>
-<title>Web assignment</title>
+    <title>Web assignment</title>
 <style>
-    body{
-        background-color: rgb(0, 255, 255);
-    }
-    *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-.image{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.image img{
-    height: 600px;
-    width: 600px;
-    border-radius: 50%;
-    border: 10px solid floralwhite;
+        body
+        {
+        background-color: rgb(142, 127, 75);
+        }
+        .image 
+        {
+            width: 100%;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-}
-.photo{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        }
 
-}
-.photo img{
-    height: 600px;
-    width: 600px;
-    border-radius: 50%;
-    border: 10px solid floralwhite;
+        .image img
+         {
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            border: 5px solid black;
 
-}
+        }
 </style>
 </head>
-<body><h1>This is The web assignment for the following team :</h1></body>
-<ul>
-<h3><li>Fathy</li>
-    <p>I am 20, lives in sharqia </p>
-    <p>ID:202111262</p>
-    <p>this is my photo  </p>
-    <div class="photo">
-        <img src="" alt="fathy's photo">
-    </div>
-<p><a href="https://www.facebook.com/fathy.nassef.9/" target="_blank">myfacebook</a></p>
-    <p><a href="mailto:fathy2111262@miuegypt.edu.eg">contact me</a></p>
-</h3>
-<h3><li>Abdelrahman</li></h3>
-<!-- this part of code for hazem -->
-<hr>
-<h3><li>Hazem mohamed zakeria </li></h3>
-<p>ID:2021-11675</p>
-<p>I am 20 years old</p>
-<p><a href="https://www.facebook.com/zomalovemylove/" target="_blank"> facebook account </a></p>
-<div class="image">
-    <img src="hazem photo.jpg" alt="hazem's photo">
-</div> 
-<hr>
-<!-- end of hazem part -->
-<h4><li>Mohamed Saleh Mater</li></h4>
-<p>ID:2021-10465</p>
-<p>I am 20 years old</p>
-<p>New to HTML, ready to learn more and more as i go.</p>
-<!-- end of Mohamed's part -->
-<h3><li>Karim</li></h3>
-</ul>
-</html>
-<head>karim ahmed</head>
-<body>2021/10342
-<br>
-<img src="WhatsApp Image 2023-02-18 at 7.31.47 PM.jpg" width="100" >
-<hr>
 
+<body>
+    <center><h2 style="color: rgb(69, 18, 100);">This is the web assignment for the following team :</h1></center>
+
+         <!--Fathy's part-->
+        <h2>
+            <li>Fathy</li>
+        </h2>
+        <p>I am 20 years old ,I live in Sharqia-Egypt </p>
+        <p>ID:2021-11262</p>
+        <p>This is my photo</p>
+        <div class="image">
+            <img src="Fathy's photo.png" alt="Fathy's photo">
+        </div>
+        <p>
+            <a href="https://www.facebook.com/fathy.nassef.9/" target="_blank">My Facebook account</a>
+        </p>
+        <p>
+            <a href="https://wa.me/+201096180475">contact me</a>
+        </p>
+        <hr>
+         
+
+        <!--Abdelrahman's part-->
+        
+          <h2><li>Abdelrahman</li></h2>
+        
+        <p>
+        <h3 style="display: inline">Age:</h3>
+        <h4 style="display: inline;">19 years old</h4>
+        </p>
+        <h3 style="display: inline;">Nationalty:</h3>
+        <h4 style="display: inline;">Egyptian-Asyut</h4>
+         <div class="image">
+            <img src="Abdelrahman's photo.png" alt="This is my image">
+        </div>
+        <a href="https://wa.me/+201018221519">Contact Me now!</a>
+        <hr>
+          
+
+        <!--Hazem's part-->
+        <h2>
+            <li>Hazem mohamed zakeria </li>
+        </h2>
+        <p>ID:2021-11675</p>
+        <p>I am 20 years old</p>
+        <p>
+            <a href="https://www.facebook.com/zomalovemylove/" target="_blank">My Facebook account</a>
+        </p>
+        <div class="image">
+            <img src="Hazem's photo.png" alt="hazem's photo">
+        </div>
+        <hr>
+     
+
+         <!--Mohamed's part-->
+        <h2>
+            <li>Mohamed Saleh Mater</li>
+        </h2>
+        <p>ID:2021-10465</p>
+        <p>I am 20 years old</p>
+        <p>New to HTML, ready to learn more and more as i go.</p>
+        <div class="image">
+            <img src="Mohamed's photo.png" alt="Mohamed's photo">
+        </div>
+        <hr>
+          
+
+          <!--karim's part-->
+        <h2><li>karim ahmed</li></h2>
+         ID: 2021-10342
+        <br>
+        <div class="image">
+        <img src="Karim's photo.png" width="100">
+        </div>
 
 </body>
 </html>
